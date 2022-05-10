@@ -1,0 +1,15 @@
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\bin\Debug\net6.0\GettingStarted2.exe
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\bin\Debug\net6.0\GettingStarted2.deps.json
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\bin\Debug\net6.0\GettingStarted2.runtimeconfig.json
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\bin\Debug\net6.0\GettingStarted2.dll
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\bin\Debug\net6.0\ref\GettingStarted2.dll
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\bin\Debug\net6.0\GettingStarted2.pdb
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.csproj.AssemblyReference.cache
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.AssemblyInfoInputs.cache
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.AssemblyInfo.cs
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.csproj.CoreCompileInputs.cache
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.dll
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\ref\GettingStarted2.dll
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.pdb
+C:\Users\Diego\source\repos\GettingStarted2\GettingStarted2\obj\Debug\net6.0\GettingStarted2.genruntimeconfig.cache

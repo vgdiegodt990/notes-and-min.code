@@ -1,0 +1,15 @@
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\bin\Debug\net6.0\GettingStarted3.exe
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\bin\Debug\net6.0\GettingStarted3.deps.json
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\bin\Debug\net6.0\GettingStarted3.runtimeconfig.json
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\bin\Debug\net6.0\GettingStarted3.dll
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\bin\Debug\net6.0\ref\GettingStarted3.dll
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\bin\Debug\net6.0\GettingStarted3.pdb
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.csproj.AssemblyReference.cache
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.AssemblyInfoInputs.cache
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.AssemblyInfo.cs
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.csproj.CoreCompileInputs.cache
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.dll
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\ref\GettingStarted3.dll
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.pdb
+C:\Users\Diego\source\repos\GettingStarted3\GettingStarted3\obj\Debug\net6.0\GettingStarted3.genruntimeconfig.cache
