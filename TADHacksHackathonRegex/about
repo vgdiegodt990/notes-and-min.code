@@ -1,0 +1,22 @@
+person stranded on an island -> 
+
+send message via HAM radio to a certain frequency -> 
+say in order 1. phone number 2. message 3. BURP (ends the call [phrase can be changed])
+
+people on other end receive call/message -> 
+python regex parses the message for phone number, message, and burp
+
+machine picks it up -> 
+
+sends a message to the number with the message attached -> 
+
+people receive the text message // END 
+
+Resources used
+https://www.regular-expressions.info/
+https://regex101.com/
+https://www.regular-expressions.info/editpadpro.html
+
+Specific 
+https://regextutorial.org/regex-for-numbers-and-ranges.php
+https://stackoverflow.com/questions/6479423/does-d-in-regex-mean-a-digit
