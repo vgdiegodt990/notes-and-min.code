@@ -1,0 +1,117 @@
+WWW/World Wide Web/"Web" - information system for sharing resources/documents through...
+URLs (Uniform Resource Locator) - resources shared through Internet (global network) 
+- Documents transfered via HTTP (Hypertext Transfer Protocol) - set of rules/protocols)
+
+Go to webpage --> request (ask to enter website) --> reponse (yes/no/?) 
+      |                                           |
+Client loads page -> server responds w/ instructions for browser to render content 
+
+    What happens geting to client                        Client Focused (Presentation)
+Backend (server management, Cloud, etc.)        vs      Frotend (HTML, CSS, JS[kinda])
+            Blue (CSS[Adjective]) Ballpoint (HTML[Noun]) Leapt (JS[Verb])
+
+    - SECTION BREAK
+
+HTML - Hypertext Markup Language / changing the structure of text content (lists, links, bold/italics) 
+HTML Elements - used to write HTML, structuring it - defined by HTML Tags ->    <p> ... </p>
+        Use the elements for structuring, <h1> being top level or <div> for separation 
+
+HTML Boilerplate/Skeleton - essentials needed for proper display/structure 
+    Head stores metadata (title, favicon), body for text/content 
+
+Anchor tag <a> for creating hypertexts, needs an attribute to pass info back to tag
+    |-> remember to use correct protocol -> google.com = file protocol, https://www.google.com = https protocol
+
+HTML defined as a set of instructions for how HTML works... reason why different browsers have 
+different variations (add CSS difference) - rendering engine or rules
+    Think of it as a STANDARD   
+
+    -- section BREAK
+
+        Block Element               Inline Element
+           - - -
+             -                          - - - - 
+           - - -  
+
+<div> standas as the "content division" (always thought of it as "divider") 
+- generic container that's a block level element
+<span> another generic container BUT inline level element 
+
+<hr> horizational rule      <br> break, line break
+<sup> superscript, used for citations, above a charcater 
+<sub> subscript, rendered below, used for chemicals or fractions 
+
+ -- -- SECTION BREAK
+
+HTML Entities - characters that are specially reservered, used in place of difficult to type characters
+    Starts w/ an ampersand (&) and ends in semicolon (;) - browsers interprets and renders 
+Ex: Less than sign (<) can cause confusion for IDE b/c its a servered character in HTML, browser can show 
+it's fine but issues may occur internally: use an entity -> &lt; 
+
+Semanatic Markup (Semanatic Elements) - adding meaning to program/markup, makes it easier to know what's the 
+purpose of element and also for accessibilty (screen reader)
+_______________
+|<th>|<th>|<th>| = <tr> Tables are structured sets of data made up of rows and columns - good for data display
+|<th>|<td>|<td>| = <tr>     used early on (90's) for positioning content - deprecated use 
+|<th>|<td>|<td>| = <tr> = table row, <th> = table head, <td> = table data 
+---------------
+    Semantic Markup for table: <thead>, <tbody>, <tfoot> 
+Use <colspan> & <rowspan> attribute to further breakdown one header sections 
+
+<form> element is a shell or container w/ no visual impact, fill it w/ data and then it's
+routed for other use - often inputs are made 
+    action attribute specifies WHERE form data is sent 
+    method attribute specifies WHICH HTTP method should be used 
+Name attribute dictates what the data's "name" is when sent to the backend 
+Value attribute functions similarly BUT value defines the input data while name defines the input field name 
+
+Creating a button: <input type="submit> vs <button> elements - go w/ button instead b/c to chnage the text
+                   w/ input is roundabout way + it makes distinction easier - semanatic markup
+
+HTML Form Validation - setting parameters for the data that gets passed along the form 
+                           e.g having special character for password or certain length
+    Attributes: min-length, max-length, required (essential for making them work), pattern
+
+---- sect end 
+
+CSS - Cascading Style Sheets, language for how documents are visually presented - arranged and styled 
+CSS Rules - what you do in CSS will, for the most part, follow this pattern:
+    selector { property: value; }       ex: h1 { color: purple; }
+
+Ways for Including Styles
+1. Inline Styles - writing the style directly inline on each element - cringe 
+2. <Style> Element - placed in the <head>, easy but makes it impossible to share styles between documents 
+3. External Stylesheet - writing styles in a .css file, then include it using <link> element in 
+                         the <head>, best way for separation and sharing 
+
+CSS Color Systems
+RGB (Red, Green Blue) - uses the three "channels" for mixture, each range from 0-255 
+rgb (255, 0, 0) [Red], rgb (173, 20, 219) [Purple type], rgb (0, 0, 0) [Black]
+
+Hex(adecimal) - still red, green, blue channels BUT represented w/ hexadecimal base 16 instead, 
+                16 choices - go from 0-9 and then A-F = 16 total / leads to more compact color names/references 
+#ffff00 - first 2 digits = red, middle 2 = green, last 2 = blue 
+
+hsl (hue, saturation, lightness) - more difficult to conceptualize, charts to the left - 0% lightness = black,
+saturation w/ how "purpe" the color is - dull or not - if you go over 360 then it will still work, 
+will just use the remainder - ex: 200 and 560 = same color (hue)
+        Conceputalize a circle, 0 = red, 60 = yellow, 120 = green, 180 = cyan, blue = 240, 300 = magneta 
+        Then goes around and cycles through again
+
+Additive - hsla, the fourth parameter muse be between 0.0 and 1 - determines transparency
+           - 'a' in hsla no longer required, can just put the value in hsl 
+- can be done w/ rgb too, no added 'a'
+- in hex the last two digits add the alpha channel, ex: #6ace8800 [00 is full transparency]
+- 'a' = alpha channel 
+* opacity property changes the whole selector, so yes there is a difference between it and alpha channel 
+
+-- SEC END 
+CSS Sizing Properties 
+       Relative                         Absolute (not recommended for responsive design)
+- EM    - REM   - VH               - PX    - PT    - CM
+- VW    - %                        - IW    - MM 
+
+font-family: Gill Sans Extrabold, sans-serif; 
+           |- font stacking, if one system/OS/browser doesn't support 1st choice then 2nd is used as backup 
+           
+
